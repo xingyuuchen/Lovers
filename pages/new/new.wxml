@@ -1,0 +1,38 @@
+
+<view class="view">
+  <text class="headline" style="{{radio_value=='bad' ?	'background-color:rgb(218, 206, 98);' : ''}}">{{radio_value=='good' ? '记录一个点滴...' : '我要记小本本！'}}</text>
+
+  <radio-group id="selector" class="selector" bindchange='bindchanged'>
+    <label class="{{radio_value=='good' ? 'lable_on' : 'lable_off'}}">
+      <text class="radio_text">整挺好</text>
+      <radio value="good" hidden="true"></radio>
+    </label>
+    <label class="{{radio_value=='bad' ? 'lable_on' : 'lable_off'}}" style="{{radio_value=='bad' ?	'background-color:rgb(218, 206, 98);' : ''}}">
+      <text class="radio_text">不太好</text>
+      <radio value="bad" hidden="true"></radio>
+    </label>
+  </radio-group>
+
+  <textarea placeholder="{{radio_value=='good' ? '给爷康康为啥高兴' : 'why not happy?'}}" style="{{radio_value=='bad' ?	'background-color:rgb(218, 206, 98);' : ''}}" maxlength="255" bindinput="upd_content"></textarea>
+	
+  <text class="text" style="{{radio_value=='bad' ?	'background-color:rgb(218, 206, 98);' : ''}}">{{radio_value=='good' ? '你有多嗨？' : '不高兴指数:'}}</text>
+  <view style="margin-top: 20rpx;" bindtap="tap_stars">
+    <image id="star0" src="{{star_src[0]}}" class="star"></image>
+    <image id="star1" src="{{star_src[1]}}" class="star"></image>
+    <image id="star2" src="{{star_src[2]}}" class="star"></image>
+    <image id="star3" src="{{star_src[3]}}" class="star"></image>
+    <image id="star4" src="{{star_src[4]}}" class="star"></image>
+  </view>
+  
+  <view class="btn_holder">
+    <!-- <button class="btn" bindtap="navigateback2browse">我反悔啦</button>  -->
+    <button class="btn" style="{{radio_value=='bad' ?	'background-color:rgb(218, 206, 98);' : ''}}" bindtap="commit_new">
+      Add to Emotional Timeline
+    </button>
+  </view>
+
+	<image id="bg" src="{{bg_src}}"></image>
+</view>
+
+<image id="heart" src="../../images/heart2.png" animation="{{heart_anim}}"></image>
+

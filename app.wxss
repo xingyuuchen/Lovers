@@ -1,0 +1,13 @@
+/**app.wxss**/
+.container {
+	/* background-image: url('http://49.235.29.121:5002/get_photo?photo_name=bg_before.png'); */
+	background-size:100% 100%;
+  -moz-background-size:100% 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 

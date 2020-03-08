@@ -1,0 +1,20 @@
+{
+	"pages": [
+		"pages/browse/browse",
+		"pages/new/new",
+		"pages/leadin/leadin",
+		"pages/main/main"
+	],
+	"window": {
+		"navigationStyle": "custom",
+		"backgroundTextStyle": "light",
+		"navigationBarBackgroundColor": "#ffffff",
+		"navigationBarTitleText": "Hi!",
+		"navigationBarTextStyle": "black"
+	},
+	"sitemapLocation": "sitemap.json",
+	"requiredBackgroundModes": [
+		"audio"
+	]
+}
+

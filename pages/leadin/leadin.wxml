@@ -1,0 +1,11 @@
+
+<view class="view">
+	<text id="start">{{start_text}}</text>
+	<text id="main_text" animation='{{main_text_anim}}'>{{main_text}}</text>
+	<button id="go2main" type="primary" bindtap="my_navigate" 
+					disabled="{{btn_disable}}" style='opacity:{{btn_opa}}'>我已戴上</button>
+	<image id="bg" src="{{bg_src}}"></image>
+</view>
+
+<image id='heart' src="../../images/heart2.png" animation="{{heart_beat_anim}}"></image>
+

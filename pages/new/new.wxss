@@ -1,0 +1,117 @@
+.view{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.text{
+	align-self: flex-start;
+	background-color: rgb(221, 120, 167);
+	border-radius: 25rpx;
+	color: rgb(3, 99, 102);
+	margin-top: 50rpx;
+	margin-left: 20rpx;
+	padding-left: 15rpx;
+	padding-right: 15rpx;
+	font-size: 40rpx;
+}
+
+
+#bg {
+	position: fixed;
+	opacity: 0.7;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+}
+
+.headline {
+	align-self: flex-start;
+	margin-top: 100rpx;
+	margin-left: 20rpx;
+	font-size: 60rpx;
+	font-weight: bold;
+	background-color: rgb(218, 98, 124);
+	border-radius: 25rpx;
+	color: rgb(5, 82, 85);
+}
+
+.selector {
+	margin-top: 60rpx;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+
+.lable_off {
+	background-color: rgb(199, 182, 190);
+	border-radius: 25rpx;
+	align-self: center;
+}
+.lable_on {
+	border-radius: 25rpx;
+	background-color: rgb(238, 68, 147);
+}
+.radio_text {
+	font-size: 40rpx;
+	margin: 30rpx;
+}
+
+#heart{
+	position: fixed;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	/* left: 50%;
+	top: 50%; */
+	height: 1400rpx;
+	width: 1400rpx;
+	opacity: 0.4;
+	z-index: -1;
+}
+
+
+textarea {
+	margin-top: 60rpx;
+	background-color: rgb(240, 158, 176);
+	cursor: auto;
+	width: 350px;
+	height: 400rpx;
+	display: block;
+	position: relative;
+	border-style: dotted;
+	border-radius: 25rpx;
+	border-color: rgb(23, 160, 179);
+	opacity: 0.6;
+}
+
+
+.btn_holder {
+	margin-top: 60rpx;
+	display: flex;
+	flex-direction: row;
+}
+.btn {
+	border-radius: 25rpx;
+	background-color: rgb(216, 37, 112);
+	margin-left: 30rpx;
+	margin-right: 30rpx;
+}
+
+
+.star {
+	margin-left: 4px;
+	margin-right: 4px;
+	height: 35px;
+	width: 35px;
+}
+
+

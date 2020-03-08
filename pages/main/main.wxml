@@ -1,0 +1,17 @@
+
+<view class="view">
+	<text class="redline" animation="{{text_anim}}">{{text1}}</text>
+	<text decode="{{true}}" class="text" animation="{{text_anim}}">&emsp;&ensp;{{text2}}</text>
+	<text class="redline2" animation="{{text_anim}}">{{text3}}</text>
+	<text class="redline2" animation="{{text_anim}}">{{text4}}</text>
+	<scroll-view scroll-y="true" class="scroll_view" bindscrolltolower="scroll_low" bindscroll="scroll"  scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
+		<text decode="{{true}}" class="text" animation="{{text_anim}}">&emsp;&ensp;{{text5}}</text>
+	</scroll-view>
+	<image id="bg" src="{{bg_src}}"></image>
+</view>
+
+<image id="cxy" src="{{eat_image_src}}" animation="{{eat_anim}}"></image>
+<image id="wbx" src="{{wbx_src}}" animation="{{wbx_anim}}"></image>
+<image id='heart' src="../../images/heart2.png" animation="{{heart_beat_anim}}" bindtap="speed_up_heart_beat"></image>
+
+

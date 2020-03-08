@@ -1,0 +1,78 @@
+.view{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.content{
+	margin-top: 20rpx;
+	/* margin-left: 15rpx;
+	margin-right: 15rpx; */
+	color: rgb(0, 0, 0);
+	font-size: 40rpx;
+}
+
+.avatar {
+	align-self: flex-start;
+	padding-top: 80rpx;
+	margin-left: 20rpx;
+	/* margin-top:  */
+}
+
+.timeline{
+	align-self: flex-start;
+	margin-top: 15rpx;
+	margin-left: 20rpx;
+	font-size: 60rpx;
+	font-weight: bold;
+	color: rgb(2, 169, 175);
+	/* color: rgb(175, 2, 166); */
+}
+
+
+.bg_star{
+	position: fixed;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	height: 1000rpx;
+	width: 1000rpx;
+	opacity: 0.4;
+	z-index: -1;
+}
+
+#bg {
+	position: fixed;
+	opacity: 0.5;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+}
+
+
+.btn {
+	margin-top: 30rpx;
+	/* border-style: solid; */
+	border-radius: 25rpx;
+	/* border-color: rgb(66, 214, 73); */
+	background-color: rgb(231, 71, 71);
+}
+
+
+.star {
+	height: 40rpx;
+	width: 40rpx;
+}
+
+.scroll_view {
+	width: 95%;
+	margin-top: 20rpx;
+	height: 900rpx;
+}
